@@ -3,7 +3,19 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-h1{
+.assignment {
+    display: flex;
+    padding:10px;
+    margin:10px;
+    background:darkgoldenrod;
+}
+
+.assignment img {
+    width:200px;
+    padding:10px;
+}
+
+h1 {
     color:rgba(220, 140, 20, 0.932);
     text-align:center;
 }

@@ -9,14 +9,33 @@ body {
     padding:10px;
     margin:10px;
     background:darkgoldenrod;
+    border-radius: 5px;
 }
 
 .assignment img {
     width:200px;
-    padding:10px;
+    margin: 10px;
+    border: 2px solid brown;
+}
+
+.assignment img:hover {
+    border: 2px dashed cornsilk;
 }
 
 h1 {
     color:rgba(220, 140, 20, 0.932);
     text-align:center;
+}
+
+h1:hover {
+    color: crimson;
+}
+
+a {
+    text-decoration: none;
+    color: burlywood;
+}
+
+a:hover {
+    color: cornsilk;
 }

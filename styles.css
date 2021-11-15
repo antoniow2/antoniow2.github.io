@@ -3,19 +3,28 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.assignments{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .assignment {
-    display: flex; 
+    width: 22%;
     flex-direction:column;
     padding:10px;
     margin:10px;
+    padding: 20px 10;
     background:darkgoldenrod;
     border-radius: 5px;
+    
 }
 
 .assignment img {
     width:200px;
     margin: 10px;
     border: 2px solid brown;
+    display: block;
+    margin:auto;
 }
 
 .assignment img:hover {
@@ -29,6 +38,10 @@ h1 {
 
 h1:hover {
     color: crimson;
+}
+
+h2 {
+    text-align: center;
 }
 
 a {
